@@ -31,19 +31,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/meme3" />
 
-    <TextView
-        android:id="@+id/tvcap2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="223dp"
-        android:text="I can totally relate"
-        android:textColor="#E64D1E"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
     <Button
         android:id="@+id/btfour"
         android:layout_width="wrap_content"
@@ -62,6 +49,17 @@
         android:layout_marginEnd="49dp"
         android:text="Next"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tvcap2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="64dp"
+        android:text="Totally relatable"
+        android:textColor="#FF5722"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
